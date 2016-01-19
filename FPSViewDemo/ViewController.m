@@ -25,9 +25,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)hide:(id)sender
-{
-    [JBFPSView hideFPSView];
-}
-
 @end

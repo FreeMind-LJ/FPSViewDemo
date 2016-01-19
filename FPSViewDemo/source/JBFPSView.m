@@ -9,11 +9,12 @@
 #import "JBFPSView.h"
 
 @interface JBFPSView ()
-@property(nonatomic,assign) CGPoint startPoint;
+
 @property(nonatomic,strong) CADisplayLink *displayLink;
 @property(nonatomic,strong) UILabel *displayLabel;
 @property(nonatomic,assign) CFTimeInterval startTime;
 @property(nonatomic,assign) NSInteger frameCount;
+
 @end
 
 static JBFPSView *fpsView;
